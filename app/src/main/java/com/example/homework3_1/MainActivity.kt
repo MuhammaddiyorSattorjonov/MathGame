@@ -53,8 +53,14 @@ class MainActivity : AppCompatActivity() {
                 txt_1.text = "$number1 + $number2 = "
             }
             1->{
-                javob=number1-number2
-                txt_1.text = "$number1 - $number2 = "
+                if (number1<number2){
+                    random()
+                }
+                else
+                {
+                    javob = number1 - number2
+                    txt_1.text = "$number1 - $number2 = "
+            }
             }
             2->{
                 javob=number1*number2
